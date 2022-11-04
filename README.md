@@ -1,9 +1,9 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({IntroText = "Doors X Bubble Club",Name = "Doors Beta (ภาษาอิสาณ)", HidePremium = false, SaveConfig = true, ConfigFolder = "DoorsSex"})
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jeanjosie123/DEE/main/README.md')))()
+local Window = OrionLib:MakeWindow({IntroText = "Doors X Bubble Club",Name = "Bubble Club", HidePremium = false, SaveConfig = false, ConfigFolder = "BubbleXDoors",})
 if game.PlaceId == 6516141723 then
     OrionLib:MakeNotification({
         Name = "Error",
-        Content = "โปรดรัน Script ในเกมไม่ใช่ใน Lobby",
+        Content = "not work in Lobby",
         Time = 2
     })
 end
@@ -144,7 +144,7 @@ CharTab:AddSlider({
     Name = "Speed",
     Min = 0,
     Max = 50,
-    Default = 5,
+    Default = 1,
     Color = Color3.fromRGB(255,255,255),
     Increment = 1,
     Callback = function(Value)
