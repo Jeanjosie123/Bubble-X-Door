@@ -4,7 +4,7 @@ if game.PlaceId == 6516141723 then
     OrionLib:MakeNotification({
         Name = "Error",
         Content = "not work in Lobby",
-        Time = 2
+        Time = 3
     })
 end
 local VisualsTab = Window:MakeTab({
